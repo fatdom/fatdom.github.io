@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000000;
+  background-image: url(bg.jpg);
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+  text-align: center;
+  font-family: 'B612 Mono', monospace;
+  color: #ffffff;
+}
+
+.logo {
+  width: 120px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+a {
+  display: block;
+  max-width: 380px;
+  margin: 0 auto 20px auto;
+  padding: 15px 20px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  
+  font-size: 0.9rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 100;
+}
