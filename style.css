@@ -7,9 +7,10 @@ html {
 }
 
 body {
-  margin: 0px;
+  margin: auto;
   padding: 0px 10px;
   min-height: 100vh;
+  max-width: 400px;
   background-color: #000000;
   
   text-align: center;
@@ -35,15 +36,36 @@ h2 {
 }
 
 a {
-  display: block;
-  max-width: 380px;
-  margin: 0 auto 10px auto;
-  padding: 10px 20px;
   color: #ffffff;
   border: 2px solid #ffffff;
   
   font-size: 0.9rem;
   text-decoration: none;
+}
+
+a.latest-link {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
+  padding: 10px 20px;
+}
+
+div.social {
+  display: flex;
+}
+
+a.social-link {
+  flex: 1;
+  padding: 10px 5px;
+  margin: 5px;
+}
+
+a.social-link:first-child {
+  margin-left: 0px;
+}
+
+a.social-link:last-child {
+  margin-right: 0px;
 }
 
 a:hover {
